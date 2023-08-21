@@ -1,0 +1,148 @@
+.container-fluid {
+  background: #e5e5e5 !important;
+  padding: 10px 25px 0px 25px !important;
+}
+
+.Card-principal {
+  margin-bottom: 10px;
+}
+
+.card {
+  border-radius: calc(1.25rem - 1px) calc(1.25rem - 1px) 0 0 !important;
+  border: 0 !important;
+}
+
+.card-header:first-child {
+  border-radius: calc(1.25rem - 1px) calc(1.25rem - 1px) 0 0 !important;
+  height: 43px !important;
+  background-color: #2a75bb !important;
+}
+
+.containerProduct {
+  height: 100%;
+  max-width: 11.1rem;
+  padding: 0.3rem;
+  text-align: center;
+}
+
+.cardProduct {
+  border: 1px solid #c6cfd8;
+  border-radius: 10px 10px 10px 10px;
+  // margin-right: 1rem;
+  // margin-bottom: 0.3rem
+}
+
+.ProductName {
+  font-size: 13px;
+  height: 100px;
+  background: gainsboro;
+  font-weight: 600;
+  color: #3e3d3d;
+  display: flex;
+  align-items: center;
+}
+
+.Precio {
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.container-stock {
+  // position: relative;
+  // top: -120px;
+  color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.stock-ok {
+  background: #70b541;
+}
+
+.poco-stock {
+  background-color: #f741416e;
+}
+
+.buscador {
+  width: 20rem;
+  height: 2.7rem;
+  border: 1px solid gray;
+  border-radius: 12px;
+  padding: 9px;
+  margin-top: 4px;
+  margin-left: 45vw;
+}
+
+.subtitulo {
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .buscador {
+    margin-left: 10vw;
+  }
+}
+.card-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-img,
+.card-img-bottom,
+.card-img-top {
+  width: 130px !important;
+  height: 150px !important;
+}
+
+.containerGroupProduct {
+  display: flex;
+  width: 100%;
+}
+
+.group-container {
+  max-width: 100% !important;
+  display: flex !important;
+  justify-content: space-around !important;
+}
+
+.storesContainer{
+  // display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.storesContainer>ul>li{
+  margin-bottom: 4px;
+}
+
+.storesContainer>ul>li:nth-child(1){
+  font-weight: 700;
+}
+// .cardProduct{
+//   width: 169px;
+//     height: 207px;
+// }
+
+// .cardBodyProduct{
+//   padding: 0 !important;
+// }
+
+// .stock{
+//   position: relative;
+//     top: -173px;
+//     left: 68px;
+//     background: #3f51d2;
+//     padding: 6px;
+//     border-radius: 12px;
+//     color: white;
+//     font-weight: bold;
+//     font-size: 11px;
+// }
+// // img {
+// //   width: 94px;
+// //   height: 91px;
+// // }

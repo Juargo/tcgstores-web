@@ -1,0 +1,10 @@
+.c-app {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+.c-app {
+    color: #3c4b64;
+    background-color: #ebedef;
+    --color: #3c4b64;
+}

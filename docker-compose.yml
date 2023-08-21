@@ -1,0 +1,23 @@
+version: "3.4"
+
+services:
+  # pokebuyapi:
+  #   image: registry.gitlab.com/jorgeretamalaburto/pokebuyapi/main:latest
+  #   restart: always
+  #   ports:
+  #     - 3001:3001
+  #   volumes:
+  #       - /etc/letsencrypt:/etc/letsencrypt
+
+  frontend:
+    image: registry.gitlab.com/jorgeretamalaburto/pokebuy-web/main:latest
+    build:
+        context: .
+        dockerfile: Docker/Deploy/Dockerfile
+    ports:
+        - '80:80'
+        - '443:443'
+    volumes:
+        - /etc/letsencrypt:/etc/letsencrypt
+    # depends_on:
+    #     - pokebuyapi
