@@ -1,4 +1,4 @@
-let API_URL = "https://tcgstores-api.onrender.com:3001"
+let API_URL = "https://tcgstores-api.onrender.com"
 
 //if(process.env.REACT_APP_ENV==="development"){
 //    API_URL = "http://localhost:3001"
